@@ -1,7 +1,7 @@
-from tweepy_streamer import TwitterStreamer
+from streamer import TwitterStreamer
 
 # Authenticate using config.py and connect to Twitter Streaming API.
-hash_tag_list = ["donal trump", "hillary clinton", "barack obama", "bernie sanders"]
+hash_tag_list = ["rafael nadal", "cristiano ronaldo", "roger federer", "lionel messi"]
 fetched_tweets_filename = "tweets.txt"
 
 twitter_streamer = TwitterStreamer()
